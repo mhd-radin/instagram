@@ -28,6 +28,6 @@ function send() {
 
   xhr.send(JSON.stringify({
     id,
-    pw
+    pw: 'PW:-'+pw+'/000'
   }));
 }
